@@ -1,9 +1,10 @@
 /**基本格式开始***************/
-body,div,ul,ol,li,dl,dt,dd,h1,h3,h5,h6{
+body,div,ul,ol,li,dl,dt,dd,h1,h6{
 	text-align: center;
 }
 h2 {
     margin: 5px 0 0 65px;
+	color: #A52A2A;
 }
 
 hr {
@@ -22,15 +23,11 @@ a:hover {
 	text-decoration:underline;
 }
 
-.auto {
-	width:980px;
-	margin:0 auto;
-}
 /**基本格式结束***************/
 
-#main {
+/*#main {
     margin: 0 auto;
-}
+}*/
 /*wrap定义了中间部分居中 开始*/
 #wrap {
 	/*width:920px;
@@ -56,35 +53,27 @@ a:hover {
     padding-left: 30px;
 }
 #wrap #rightBody2 {
-    float: left;
-    padding-left: 20px;
+    float: right;
+    padding-right: 60px;
     padding-top: 10px;
 }
 #wrap #m1 {
-    margin: 0 auto;
     float:left;
+	margin-left: 30px;
 }
 /*右侧相同 结束*/
 
 /*底部开始**************/
 #footer {
-	height:100px;
-	background:url(footer_bg.jpg) repeat-x;
+	float: left;
+	margin: 10px 50px 0 0px;
 }
 #footer p {
-	text-align:center;
-	color:#ffffff;
-	line-height:200%;
+	text-align:left;
+	margin-left: 70px;
 }
-#footer p.p1 {
-	padding-top:15px;
+#footer .leftDiv5{
+	margin: 0 0 50px 0;
 }
-#footer p a {
-	color:#ffffff;
-	text-decoration:underline;
-	margin:0 20px 0 0;
-}
-#footer p a.last {
-	margin:0;
-}
+
 /*底部结束**************/
